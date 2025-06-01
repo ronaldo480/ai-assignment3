@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Closet - 내 옷장</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">홈</a></li>
+                <li><a href="closet.html">내 옷장</a></li>
+                <li><a href="outfit.html">코디 추천</a></li>
+                <li><a href="contact.html">문의하기</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="closet-section">
+            <h1>내 옷장</h1>
+            <div class="upload-section">
+                <button id="upload-button">옷 사진 업로드</button>
+                <input type="file" id="file-input" accept="image/*" multiple hidden>
+            </div>
+            <div class="clothing-grid" id="clothing-items">
+                <!-- 옷장 아이템들이 여기에 표시됩니다 -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fashion Closet. All rights reserved.</p>
+    </footer>
+
+    <script src="js/closet.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Closet - 코디 추천</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">홈</a></li>
+                <li><a href="closet.html">내 옷장</a></li>
+                <li><a href="outfit.html">코디 추천</a></li>
+                <li><a href="contact.html">문의하기</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="weather-section">
+            <h2>현재 날씨</h2>
+            <div id="weather-info">
+                <!-- 날씨 정보가 여기에 표시됩니다 -->
+            </div>
+        </section>
+
+        <section class="outfit-section">
+            <h1>오늘의 코디 추천</h1>
+            <div class="outfit-grid" id="outfit-suggestions">
+                <!-- 추천 코디가 여기에 표시됩니다 -->
+            </div>
+            <button id="refresh-button">새로운 코디 추천받기</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fashion Closet. All rights reserved.</p>
+    </footer>
+
+    <script src="js/outfit.js"></script>
+</body>
+
+</html>
